@@ -1,0 +1,21 @@
+
+body{
+  width: 960px;
+  margin: auto;
+}
+
+
+#table{
+  position: relative;
+  top: -300px;
+
+}
+#table2{
+  position: relative;
+  top: -450px;
+  margin-right: auto;
+  float: right;
+}
+ul {
+  list-style-type: none;
+}
