@@ -12,7 +12,8 @@ nav{
 
 #logo{
   justify-content: flex-end; */
-
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 
 #name{
@@ -26,15 +27,29 @@ header{
   border-bottom: 9px solid silver;
 }
 h1{
+  /* display: inline; */
   font-size: 40px;
   font-family: 'Yellowtail', cursive;
   font-weight: bold;
+  margin: 0;
+}
+h3{
+  margin: 0;
+}
+#logoimg{
+  vertical-align: top;
+}
+#deli{
+  display: inline-block;
+}
+#iconwithspace{
+  margin-right: 7px;
 }
 h2{
   font-size: 40px;
   font-family: sans-serif;
   font-weight: bold;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 #par{
 color: silver;
@@ -59,14 +74,18 @@ ul {
 main{
   width: 960px;
   border-bottom: 9px solid silver;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+}
+#gray{
+  color: silver;
 }
 footer{
-  margin-top: -80px; 
+  /* margin-top: -80px;  */
   justify-content: flex-end;
-  /* height: 100px; */
-  
-}
+  color: gray;
+  margin: 0 auto;
+  width: 960px;
+  }
 footer div{
   width: 960px;
 }
@@ -81,10 +100,30 @@ footer div{
   flex-wrap: wrap;
 
 }
-#foot p{
- 
-}
+/* #par2{
+flex-wrap: wrap;
+} */
 footer h4{
   margin-top: 20px;
 
+}
+button{
+  padding: 1000px auto;
+  background-color: #af621a;
+  color: white;
+  font-size: 10px;
+
+}
+#van{
+ 
+  margin-right: 10px;
+}
+#logo2{
+/* position: relative; */
+margin: 0 auto;
+ display: block;
+}
+#copyright{
+  text-align: center;
+  color: gray;
 }
