@@ -91,7 +91,7 @@ footer div {
   min-height: 305px;
   display: flex;
   justify-content: flex-start;
-  background-image: url('/images/list-bg.png');
+  background-image: url("/images/list-bg.png");
 }
 #foot {
   display: flex;
